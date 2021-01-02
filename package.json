@@ -1,0 +1,23 @@
+{
+    "name": "mongodb-mongoose-labs",
+    "version": "1.0.0",
+    "description": "A starter project",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.12.4",
+        "mongodb": "^3.6.3",
+        "mongoose": "^5.11.9"
+    },
+    "keywords": [
+        "node",
+        "mongoose",
+        "express"
+    ],
+    "license": "MIT"
+}
