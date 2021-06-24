@@ -431,8 +431,10 @@ app.use(function (req, res) {
   }
 });
 
-const listener = app.listen(process.env.PORT || 9000, function () {
-  console.log("Server is running ...");
+const PORT = process.env.PORT || 9000;
+
+app.listen(PORT, function () {
+  console.log(`Server is listening at http://localhost:${PORT}`);
 });
 
 /*
